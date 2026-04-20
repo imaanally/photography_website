@@ -10,19 +10,21 @@
 }
 
 .rightside {
-  width: 728px;
+  width: 720px;
 }
 
 .rightside section {
   display: flex;
   flex-wrap: wrap;
   margin: 15px;
+  align-content: flex-start;
 }
 
 .rightside img {
-  width: 140px;
-  height: 120px;
+  width: 170px;
+  height: 135px;
   object-fit: cover;
+  display: block;
 }
 
 header{
@@ -65,35 +67,118 @@ nav a:hover{
     padding-left: 4px;
 }
 
-.bio{
-    margin-top: 14px;
-    line-height: 1.8;
-    color: #3c3c3c;
-    max-width: 600;
-    margin: 0;
+.intro{
+    margin: 30px 16px 0 16px;
 }
 
+.intro h2{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    color: #222;
+}
+
+.intro p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #555;
+  max-width: 300px;
+  margin: 0;
+}
+
+.bio{
+    margin: 35px 16px 0 16px;
+}
+
+.bio-head{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+
+.bio-image{
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
+
+
+.bio h2{
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  color: #222;
+}
+
+.bio p{
+  font-size: 15px;
+  line-height: 1.8;
+  color: #555;
+  max-width: 300px;
+  margin: 0;
+}
+
+.bio hr {
+  margin-top: 25px;
+  width: 220px;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+
 section hr{
-    margin-top: 30px;
+    margin-top: 48px;
     width: 100%;
     border: none;
     border-top: 1px solid #ccc;
 }
 
-.socials{
-    display: flex;
-    flex-direction: column;
-    color: #555;
-    font-size: 14px;
-    margin: 10px;
-    line-height: 2;
+.contact {
+  margin: 35px 16px;
 }
 
-.socials a{
-    text-decoration: none;
-    color: #555;
-    font-size: 14px;
+.contact h2 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  font-family: inherit;
+}
+
+.contact textarea {
+  height: 70px;
+  resize: none;
+}
+
+.contact button {
+  padding: 8px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #555;
+}
+
 
 
 
