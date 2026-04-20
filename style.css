@@ -54,9 +54,15 @@ nav{
 
 nav a{
     text-decoration: none;
-    color: #555;
+    color: #777;
     font-size: 14px;
     line-height: 2;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color:black;
+    padding-left: 4px;
 }
 
 .bio{
