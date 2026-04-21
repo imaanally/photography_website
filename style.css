@@ -1,3 +1,9 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(214, 219, 219);
+}
+
+
 .mainbox {
   display: flex;
   justify-content: space-between;
@@ -121,6 +127,14 @@ nav a:hover{
   max-width: 300px;
   margin: 0;
 }
+
+.bio-list {
+  margin-top: 15px;
+  padding-left: 18px;
+  color: #555;
+  font-size: 14px;
+}
+
 
 .bio hr {
   margin-top: 25px;
